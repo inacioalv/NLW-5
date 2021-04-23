@@ -7,6 +7,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import styles from './home.module.scss'
+import { useContext } from 'react'
+import { PlayContext } from '../contexts/PlayerContext'
 
 type Episode = {
   id: string;
@@ -25,6 +27,9 @@ type HomeProps = {
 }
 
 export default function Home({ latesEpisodes, allEpisodes }: HomeProps) {
+
+  const {play} = useContext(PlayContext)
+
   return (
     <div className={styles.homepage} >
 
@@ -52,7 +57,7 @@ export default function Home({ latesEpisodes, allEpisodes }: HomeProps) {
                   <span>{episode.durationAsString}</span>
                 </div>
 
-                <button type="button">
+                <button type="button" onClick={()=> play(episode)}>
                   <img src="/play-green.svg" alt="Tocar episódio" />
                 </button>
               </li>
