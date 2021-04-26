@@ -1,6 +1,7 @@
 <h2 align="center">
   PODCAST
-</2>
+</h2>
+
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
