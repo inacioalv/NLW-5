@@ -18,13 +18,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Next.js](https://nextjs.org/)
+- [axios](https://github.com/axios/axios)
 
 ## 💻 Projeto
 
-O 🎧Podcastr é um aplicativo web que visa aproximá-lo ainda mais do melhor podcast de tecnologia!
+O Podcastr é um aplicativo web que visa aproximá-lo ainda mais do melhor podcast de tecnologia!
+Este projeto foi desenvolvido durante a NLW, evento oferecido pela [React](https://rocketseat.com.br/)
 
-Este projeto foi desenvolvido durante a Next Level Week, evento oferecido pela @Rocketseat para ensinar novas tecnologias, 
-ferramentas e hacks para alavancar a carreira de desenvolvedor dos participantes.
 
 
 
@@ -33,9 +34,6 @@ ferramentas e hacks para alavancar a carreira de desenvolvedor dos participantes
 Nos link abaixo você encontra o layout do projeto web.Precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
 - [Layout Web](https://www.figma.com/file/l6A2jMcs3FKHlqEpdUlb3T/Podcastr?node-id=160%3A2761)
-
-
-
 
 
 <img alt="Logo do projeto" src="/podcastrnext/public/podcast.gif" />
@@ -57,7 +55,7 @@ Now go to project folder and run:
 
 
 ```bash
-$ cd podcastr_next
+
 
 # install the dependencies
 $ yarn
