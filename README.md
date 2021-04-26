@@ -34,11 +34,11 @@ Nos link abaixo você encontra o layout do projeto web.Precisa ter uma conta no 
 
 - [Layout Web](https://www.figma.com/file/l6A2jMcs3FKHlqEpdUlb3T/Podcastr?node-id=160%3A2761)
 
-<img alt="Logo do projeto" src="./Layout/home_happy.png" />
 
 
 
-<img alt="Logo do projeto" src="./Layout/escolha.png" />
+
+<img alt="Logo do projeto" src="/podcastrnext/public/podcast.gif" />
 
 
 ### Requirements
