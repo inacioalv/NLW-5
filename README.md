@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O Podcastr é um aplicativo web que visa aproximá-lo ainda mais do melhor podcast de tecnologia!
-Este projeto foi desenvolvido durante a NLW, evento oferecido pela [React](https://rocketseat.com.br/)
+Este projeto foi desenvolvido durante a NLW, evento oferecido pela [Rocketseat](https://rocketseat.com.br/)
 
 
 
