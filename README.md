@@ -41,6 +41,8 @@ Nos link abaixo você encontra o layout do projeto web.Precisa ter uma conta no 
 <img alt="Logo do projeto" src="/podcastrnext/public/podcast.gif" />
 
 
+## :joystick: How to Use
+
 ### Requirements
 
 To run the application you'll need:
@@ -52,6 +54,18 @@ To run the application you'll need:
 
 
 Now go to project folder and run:
+
+
+```bash
+$ cd podcastr_next
+
+# install the dependencies
+$ yarn
+
+# run web app
+$ yarn dev
+```
+
 
 
 
