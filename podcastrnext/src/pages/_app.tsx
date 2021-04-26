@@ -1,33 +1,16 @@
-import { useState } from 'react'
 import { Header } from '../components/Header'
 import { Player } from '../components/Player'
-import { PlayContext } from '../contexts/PlayerContext'
+import { PlayerContextProvider } from '../contexts/PlayerContext'
+
 import '../style/global.scss'
 import styles from  '../style/_app.module.scss'
 
 function MyApp({ Component, pageProps }) {
 
-  const [episodeList,setEpisodeList] = useState([]);
-  const [currentEpisodeIndex, setCurrentEpisodeIndex] = useState(0);
-  const [isPlaying, setIsplaying] =useState(false)//Já toca
-
-  function play(episode){
-    setEpisodeList([episode]);
-    setCurrentEpisodeIndex(0);
-    setIsplaying(true)
-  }
-
-  function tooglePlay(){
-    setIsplaying(!isPlaying);
-  }
-
-  function setPlayingState(state:boolean){
-    setIsplaying(state);
-  }
+  
 
   return (
-    <PlayContext.Provider value={{episodeList,currentEpisodeIndex,play,isPlaying,tooglePlay,
-      setPlayingState}}>
+      <PlayerContextProvider>
         <div className={styles.wrapper}>
           <main>
             <Header/>
@@ -36,7 +19,8 @@ function MyApp({ Component, pageProps }) {
           <Player/>
 
         </div>
-    </PlayContext.Provider> 
+        </PlayerContextProvider>
+    
   )
 }
 
