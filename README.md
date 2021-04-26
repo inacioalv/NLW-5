@@ -1,5 +1,5 @@
 <h2 align="center">
-  PODCAST
+  PODCASTR
 </h2>
 
 
