@@ -49,7 +49,7 @@ To run the application you'll need:
 * [Node](https://nodejs.org/)
 * [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
 * Clone the repository:
-  * ```$ git clone https://github.com/BravoNatalie/Ecoleta.git ```
+  * ```$ git clone https://github.com/inacioalv/NLW-5.git ```
 
 
 Now go to project folder and run:
